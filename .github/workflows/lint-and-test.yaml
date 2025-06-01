@@ -43,7 +43,7 @@ jobs:
       #   run: helm lint --strict --values mailu/helm-lint-values.yaml mailu
 
       - name: Set up chart-testing
-        uses: helm/chart-testing-action@v2.3.1
+        uses: helm/chart-testing-action@v2.7.0
 
       - name: Run chart-testing (list-changed)
         id: list-changed
